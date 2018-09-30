@@ -25,3 +25,9 @@ CREATE TABLE login(
 
 Note: email acts as a foreign key from relation login referencing users.
 ```
+
+To run this project :
+1. Clone this repo
+2. Change you directory : `cd Mastermind-api`
+3. Run `npm install`
+4. Run `npm start`
