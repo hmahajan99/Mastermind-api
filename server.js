@@ -36,6 +36,6 @@ app.post('/changepassword', (req, res) => { profile.handlePasswordChange(req, re
 app.delete('/delete', (req, res) => { profile.deleteAccount(req, res, db, bcrypt)})
 app.get('/leaderboard', (req, res) => { leaderboard.getLeaderboard(req, res, db)})
 
-app.listen(3000, ()=> {
-  console.log('app is running on port 3000');
+app.listen(process.env.PORT || 3000, ()=> {
+  console.log(`app is running on port ${process.env.PORT || 3000}`);
 })
