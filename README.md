@@ -1,4 +1,4 @@
-# Mastermind API
+# Mastermind 1.0 - API
 
 > This repository hosts the code for the backend part. Code for the frontend built using React can be found at https://github.com/hmahajan99/Mastermind.
 
